@@ -1,0 +1,185 @@
+.container{
+    
+        position: absolute;
+        top: 0;
+        width: 100%;
+        margin: 0 auto;
+}
+a{
+text-decoration: none;
+}
+.top_nav{
+   
+        /* position: absolute; */
+        top: -295px;
+        right: 0;
+        width: 100%;   
+        float: right;
+        text-align:right;
+        padding-right: 5%;
+        margin-top: 1%;
+        
+}
+.branding{
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        padding-top: 200px;
+        text-align: center;
+}
+.topbar{
+        /* width:226px;
+        align-items: center;
+        color: rgb(34, 34, 34);
+        display: flex;
+        flex-basis: auto;
+        flex-grow: 1;
+        flex-shrink: 1;
+        float: right;
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        justify-content: flex-end;
+        margin-left: 0px;
+        margin-right: 0px;
+        min-width: 226px;
+        order: 1;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        text-align: right; */
+}
+.mail{
+     display: inline-block;
+     margin-left: 10px;
+     text-align:right;
+}
+.top-bar a:hover {
+        text-decoration: underline;
+    }
+.image{
+display: inline-block;
+margin-left: 10px;
+text-align: right;
+}
+
+.app img{
+        background-position: -132px -38px;
+        opacity: .55;
+        width:1.8%;
+        display: inline-block;
+        margin-left: 20px;
+  
+}
+.noti img{
+        width:1.5%;
+        margin-left: 20px;
+        display: inline-block;
+}
+.account{
+        width: 3%;   
+        margin-left: 20px;     
+        /* line-height: 24px; */
+        padding: 2px;
+        border-radius: 50%;
+        margin-top: 2px;
+        font-size: 23px;
+        background: #0088cc;
+        color: #fff;
+        text-align: center;
+}
+.content{
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: -1px;
+        padding-left: 284px;
+        padding-right: 284px;
+        padding-top: 8px;
+}
+form {
+        background: #fff;
+        max-width: 600px;
+        margin: 30px auto 0;
+        text-align: center;
+        
+      
+      }
+p {
+        margin: 1% 0 3em 0;
+        position: relative;
+      }
+input {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 1.2em 1.2em 1em;
+        box-shadow: 0 0 0.065em #222;
+        outline: none
+      }
+button{
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 2px;
+        color: #757575;
+        cursor: default;
+        font-family: arial,sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        margin: 11px 4px;
+        min-width: 54px;
+        padding: 0 16px;
+        text-align: center;
+        height: 36px;
+        line-height: 27px;
+    
+
+}
+.footer{
+        background: #f2f2f2;
+        border-top: 1px solid #e4e4e4;
+        line-height: 40px;
+        width: 100%;
+        position: absolute;
+        font-size: small;
+        margin-left: -9px;
+        line-height: 40px;
+}
+.first_footer{
+        margin-left: 30px;
+        text-align: left;
+        color: rgba(0,0,0,.54);
+        padding-left: 27px;
+        border-bottom: 1px solid #e4e4e4;
+}
+.right_side{
+        float: right;
+        font-family: arial, sans-serif;
+        font-size: 13px;
+        line-height: 40px;
+        margin-right: 30px;
+        visibility: visible;
+        color: rgb(95, 99, 104);
+        display: inline-block;
+}
+.right_side a{
+        padding-left: 27px; 
+}
+.right_side  a:hover {
+        text-decoration: underline;
+    }
+.left_side{
+        font-family: arial, sans-serif;
+        font-size: 13px;        
+        line-height: 40px;
+        margin-left: 30px;
+        visibility: visible;
+        color: rgb(95, 99, 104);
+        display: inline-block;
+}
+.left_side a{
+        padding-left: 27px; 
+}
+.left_side  a:hover {
+        text-decoration: underline;
+    }
